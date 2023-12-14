@@ -1,1 +1,3 @@
-export { sum, mul } from './calc';
+import useCountry from "./hooks/useCountry";
+
+export {useCountry};
