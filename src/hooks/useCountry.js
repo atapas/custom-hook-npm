@@ -7,7 +7,7 @@ const useCountry = (name) => {
   const [error, setError] = useState();
 
   useEffect(() => {
-    const fetchCountryInfo = async (name) => {
+    const fetchCountryInfo = async () => {
       try {
         setLoading(true);
         const response = await fetch(`https://restcountries.com/v3.1/name/${name}`);

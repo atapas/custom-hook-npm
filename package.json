@@ -1,6 +1,6 @@
 {
   "name": "custom-hook-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "This is a boilerplate to create NPM package for one or more ReactJS custom hooks and components.",
   "author": {
