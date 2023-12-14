@@ -1,6 +1,7 @@
 {
   "name": "custom-hook-npm",
   "version": "1.0.0",
+  "type": "module",
   "description": "This is a boilerplate to create NPM package for one or more ReactJS custom hooks and components.",
   "author": {
     "name": "Tapas Adhikary",
@@ -9,7 +10,7 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [
     "react",
@@ -26,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/atapas/custom-hook-npm/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.0"
+  }
 }
