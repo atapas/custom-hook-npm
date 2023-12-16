@@ -1,6 +1,6 @@
 # Custom Hook NPM
 
-This is a boilerplate to create NPM package for one or more ReactJS custom hooks and components.
+This is a boilerplate to create an NPM package for one or more ReactJS custom hooks and components.
 
 ## How to use it?
 
@@ -8,8 +8,8 @@ You can use the project in this way:
 
 ### Install
 
-- 1. Clone this repository and change directory to the project folder.
-- 2. Edit the `package.json` file to change the package name, author info, and github link info as per your information.
+- 1. Clone this repository and change the directory to the project folder.
+- 2. Edit the `package.json` file to change the package name, author info, and GitHub link info as per your information.
 - 3. Run `npm install` in the root directory of your project.
 - 4. Add your React component and hooks. Hooks to go inside the `hooks` folder.
 
@@ -17,8 +17,8 @@ You can use the project in this way:
 
 You can build the project in two ways:
 
-- 1. `yarn build`: To build the project with source map.
-- 2. `yarn build: prod`. This will generate minified files without sourcemap.
+- 1. `yarn build`: To build the project with a source map.
+- 2. `yarn build: prod`. This will generate minified files without a sourcemap.
 
 ### NPM Pack for test
 
@@ -31,23 +31,26 @@ After building, create a npm locally to test:
   ```bash
   "<NPM-PACKAGE-NAME>": "file:<PATH-TO-THE-TAR-PACKAGE-FILE>",
   ```
-  Please note the `NPM-PACKAGE-NAME` should be same as the name you provided in the `package.json` file after cloning this repo.
+  Please note the `NPM-PACKAGE-NAME` should be the same as the name you provided in the `package.json` file after cloning this repo.
 - Now you can check the `node-modules` folder to see if a new folder has been created with the `NPM-PACKAGE-NAME`. Then your installation is successful.
 
 ### Publish It
 
-- To publish it you need to have an account on [https://www.npmjs.com](https://www.npmjs.com).
-- Now, open a command prompt/terminal and execute this comand to login:
+- To publish it, you must have an account on [https://www.npmjs.com](https://www.npmjs.com).
+- Make sure to be in this project folder.
+- Now, open a command prompt/terminal and execute this command to login:
   ```
   npm login
   ```
-- Please provide the credentials you have created already. You can also check if you are in the session with following command,
+- Please provide the credentials you have created already. You can also check if you are in the session with the following command,
   ```
   npm whoami
   ```   
-- Next part is, just to run the the publish command,
+The next part is just to run the the publish command,
   ```
    npm publish
-  ```   
+  ```
+
+Happy Publishing!
 
 
